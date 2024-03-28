@@ -1,3 +1,9 @@
+# Process Destroyer
+This Linux script terminates processes that share the same name using a loop. To test, run 'ping localhost' in the background several times. Then, run the script 'process_killer.sh', specify the name 'ping', and watch the processes with that name terminate. Additionally, the script will display the number of completed processes. The commands applied include: ps, tr, cut, head, wc, grep and kill.
+
+Tool created for educational purposes by a Systems Engineering student as a complement to Operating Systems classes. A disclaimer of responsibility is made regarding the use and misuse of this tool.
+
+
 # Destructor de Procesos
 Este script para Linux finaliza los procesos que comparten el mismo nombre mediante un bucle. Para realizar una prueba, ejecute 'ping localhost' en segundo plano varias veces. Luego, ejecute el script 'destructor_de_procesos.sh', especifique el nombre 'ping', y observe cómo finalizan los procesos con ese nombre. Además, el script mostrará la cantidad de procesos finalizados. Los comandos aplicados incluyen: ps, tr, cut, head, wc, grep y kill.
 
